@@ -1,0 +1,9 @@
+tanos_ubil = int(input())
+print(tanos_ubil // 2 + tanos_ubil % 2)
+
+num1 = int(input())
+print((num1 + 1) // 2)
+
+
+num1 = int(input("введи свое место от 1 до 36 "))
+print((num1 + 3) // 4 )

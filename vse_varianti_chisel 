@@ -1,0 +1,11 @@
+n = int(input())
+n7 = (n % 10 ** 1) // 10 ** 0 # c
+n6 = (n % 10 ** 2) // 10 ** 1 # b
+n5 = (n % 10 ** 3) // 10 ** 2 # a
+abc = n5 * 100 + n6 * 10 + n7
+acb = n5 * 100 + n7 * 10 + n6
+bca = n6 * 100 + n7 * 10 + n5
+bac = n6 * 100 + n5 * 10 + n7
+cba = n7 * 100 + n6 * 10 + n5
+cab = n7 * 100 + n5 * 10 + n6
+print(abc,acb,bca,bac,cba,cab)
