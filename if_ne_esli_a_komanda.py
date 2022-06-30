@@ -2,3 +2,5 @@ answer = input('Какой язык программирования мы изу
 if answer == 'Python':
     print('Верно! Мы ботаем Python =)')
     print('Python - отличный язык!')
+else:
+    print("нет,мы учим другой язык")
